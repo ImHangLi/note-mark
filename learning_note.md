@@ -53,7 +53,15 @@ export const Content = forwardRef<HTMLDivElement, ComponentProps<'div'>>(
 Content.displayName = 'Content'
 ```
 
-## Conclusion
+## Components in `DraggableTopBar.tsx`
 
-By combining `twMerge` and React, you can build a responsive layout efficiently. This approach simplifies class management and ensures a scalable structure, perfect for beginners to learn and implement.
+### `DraggableTopBar`
+
+A transparent header component to make the window draggable. This allows users to drag through the top of the window.
+
+```tsx
+export const DraggableTopBar = () => {
+    return <header className="absolute inset-0 h-8 bg-transparent" />
+}
+```
 

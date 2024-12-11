@@ -19,4 +19,14 @@
 
         @apply overflow-hidden;
     }
+    
+    /* Make the window draggable */
+    header {
+        -webkit-app-region: drag;
+    }
+
+    /* Make sure the buttons are clickable */
+    button {
+        -webkit-app-region: no-drag;
+    }
 }
