@@ -1,6 +1,6 @@
 # note-mark
 
-An Electron application with React and TypeScript
+An note-taking Electron application with React and TypeScript, supports real-time markdown preview.
 
 ## Recommended IDE Setup
 
